@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: gilroy, monospace;
+}
+
+
+/* container */
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    color: #fff;
+    padding-top: 3.5vw;
+    padding-left: 5vw;
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 3.5vw;
+    margin-bottom: 3vw;
+    cursor: default;
+}
+
+.container h1 img {
+    width: 4.5vw;
+    margin-right: 1vw;
+}
+
+/* button */
+
+button {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: linear-gradient(#9418fd, #571094);
+    color: #fff;
+    border-radius: 2.5vw;
+    padding: .5vw 1.5vw;
+    cursor: pointer;
+    font-size: 2vw;
+}
+
+button img {
+    width: 1.7vw;
+    margin-right: 1vw;
+}
+
+
+/* notes-container */
+.notes-container {
+    margin-top: 2vw;
+}
+
+
+.input-box {
+    position: relative;
+    width: 100%;
+    max-width: 50vw;
+    min-height: 10vw;
+    border-radius: .4vw;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #000;
+    padding: 1.5vw;
+    margin: 1vw 0;
+}
+
+.input-box img {
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    width: 2vw;
+    cursor: pointer;
+}
